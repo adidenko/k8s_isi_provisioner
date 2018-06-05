@@ -2,19 +2,19 @@ package: github.com/xphyr/k8s_isi_provisioner
 import:
 - package: github.com/golang/glog
 - package: github.com/kubernetes-incubator/external-storage
-  version: v2.0.0
+  version: f7664243f8b889c9b105b5221fbb1d57fe8adf95
   subpackages:
   - lib/controller
 - package: k8s.io/apimachinery
-  version: c1c4a7f
+  version: kubernetes-1.10.0-beta.1
   subpackages:
   - pkg/apis/meta/v1
   - pkg/util/wait
 - package: k8s.io/client-go
-  version: "7615377"
+  version: kubernetes-1.10.0-beta.1
   subpackages:
   - kubernetes
-  - pkg/api/v1
   - rest
-- package: github.com/codedellemc/goisilon
-  version: ~1.5.0
+- package: github.com/thecodeteam/goisilon
+  version: "feature_access_point"
+  repo: https://github.com/adidenko/goisilon

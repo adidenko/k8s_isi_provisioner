@@ -60,6 +60,7 @@ This provisioner has support for Isilon Storage Quotas, however they have not be
 **Param**|**Description**|**Example**
 :-----:|:-----:|:-----:
 ISI\_SERVER|The DNS name (or IP address) of the Isilon to use | isilon.somedomain.com
+ISI\_ACCESSPATH|The root path of the URL to the file system.
 ISI\_PATH|The root path for all exports to be created in| \/ifs\/ose\_exports 
 ISI\_USER|The user to connect to the isilon as|admin
 ISI\_PASS|Password for the user account|password
